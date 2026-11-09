@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portfolio | Chesta</title>
+</head>
+<body onload="pageLoaded()">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">ChestaRadithya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#header">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#identitas">Identitas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript.html" target="_blank">Javascript</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white py-5" id="header">
+      <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Column -->
+            <div class="col-lg-8 order-2 order-lg-1">
+                <h1 class="display-4 fw-bold">Halo, namaku Chesta!</h1>
+                <p class="lead">Siswa SMK Negeri 1 Denpasar | Rekayasa Perangkat Lunak (RPL)</p>
+                <p>Saya adalah antusias IT dan Otomotif. Saya fokus pada pengembangan web & back-end dan terus belajar teknologi baru. Saya juga senang mengenang hal-hal melalui fotografi.</p>
+            </div>
+
+            <!-- Image Column -->
+            <div class="col-lg-4 order-1 order-lg-2 mb-4 mb-lg-0 text-center">
+                <img src="assets/36. CHESTA.jpg" 
+                     class="img-fluid rounded-4 shadow border border-3 border-dark" 
+                     style="width: 250px; height: 250px; object-fit: cover; object-position: top;" 
+                     alt="Chesta">
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Identitas -->
+    <section id="identitas" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-black">Identitas Diri</h2>
+            <div class="card shadow-sm col-md-8 mx-auto">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Nama Lengkap:</strong> Putu Chesta Radithya Wiryawan</li>
+                    <li class="list-group-item"><strong>TTL:</strong> Denpasar, 21 Maret 2010</li>
+                    <li class="list-group-item"><strong>Alamat:</strong> Jl. Kartini No. 192, Denpasar, Bali.</li>
+                    <li class="list-group-item"><strong>Telepon:</strong> 0896-0517-2080</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="py-5 bg-light" id="skills">
+    <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            
+            <!-- Web Dev -->
+            <span class="badge bg-white text-dark border p-2 px-3 fs-6 d-flex align-items-center">
+                <img src="assets/htmx.svg" width="20" height="20" class="me-2"> Web Dev
+            </span>
+            
+            <!-- Python -->
+            <span class="badge bg-white text-dark border p-2 px-3 fs-6 d-flex align-items-center">
+                <img src="assets/python.svg" width="20" height="20" class="me-2"> Python
+            </span>
+            
+            <!-- C++ -->
+            <span class="badge bg-white text-dark border p-2 px-3 fs-6 d-flex align-items-center">
+                <img src="assets/cplusplus.svg" width="20" height="20" class="me-2"> C++
+            </span>
+            
+            <!-- Database -->
+            <span class="badge bg-white text-dark border p-2 px-3 fs-6 d-flex align-items-center">
+                <img src="assets/mysql.svg" width="20" height="20" class="me-2"> MySQL
+            </span>
+
+            <!-- Database -->
+            <span class="badge bg-white text-dark border p-2 px-3 fs-6 d-flex align-items-center">
+                <img src="assets/git.svg" width="20" height="20" class="me-2"> Git
+            </span> 
+                </div>
+            </div>
+        </section>
+
+    <!-- Projects -->
+    <section class="py-5" id="projects">
+        <div class="container">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Daylock (Vibecoded Project)</h5>
+                            <p class="card-text">Aplikasi yang bertujuan untuk membantu mengatur waktu.</p>
+                            <a href="https://github.com/ChestaRadithya/daylock-web-app" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="py-4 bg-dark text-white text-center" id="contact">
+        <div class="container">
+            <h5>Let's Connect!</h5>
+            <div class="my-3">
+                <a href="https://github.com/ChestaRadithya" class="text-white mx-2" target="_blank" rel="noopener noreferrer"><i class="bi bi-github fs-3"></i></a>
+                <a href="https://www.instagram.com/chestaradithya" class="text-white mx-2" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram fs-3"></i></a>
+                <a href="mailto:putuchestaradithya@gmail.com" class="text-white mx-2" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-fill fs-3"></i></a>
+                <button class="btn btn-info" type="button" onclick="information()">Click Me!</button>
+            </div>
+            <p>2026 Chesta Radithya</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>
